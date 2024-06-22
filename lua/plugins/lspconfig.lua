@@ -18,6 +18,7 @@ return {
         -- tsserver will be automatically installed with mason and loaded with lspconfig
         tsserver = {},
         bashls = {},
+        elixirls = {},
         jsonls = {},
         lua_ls = {},
         sqlls = {},
@@ -45,4 +46,3 @@ return {
     },
   },
 }
-
