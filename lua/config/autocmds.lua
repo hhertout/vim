@@ -30,10 +30,10 @@ autocmd("LspAttach", {
     vim.keymap.set("i", "<C-h>", function()
       vim.lsp.buf.signature_help()
     end, opts)
-    vim.keymap.set("n", "[d", function()
+    vim.keymap.set("n", "ge", function()
       vim.diagnostic.goto_next()
     end, opts)
-    vim.keymap.set("n", "]d", function()
+    vim.keymap.set("n", "gE", function()
       vim.diagnostic.goto_prev()
     end, opts)
   end,
