@@ -22,7 +22,7 @@ return {
         jsonls = {},
         lua_ls = {},
         sqlls = {},
-        taplo = {},
+        taplo = {}, -- toml
         yamlls = {},
         gopls = {},
         rust_analyzer = {},
@@ -30,7 +30,11 @@ return {
         csharp_ls = {},
         dockerls = {},
         docker_compose_language_service = {},
-        glsl_analyzer = {},
+        glsl_analyzer = {}, -- webgl shader glsl file
+        graphql = {},
+        pyright = {},
+        volar = {}, -- vuejs
+        zls = {}, -- zig
       },
       -- you can do any additional lsp server setup here
       -- return true if you don't want this server to be setup with lspconfig
